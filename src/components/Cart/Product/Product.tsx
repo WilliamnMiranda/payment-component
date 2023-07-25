@@ -18,12 +18,12 @@ const Product = ({ product }: IProps) => {
       <C.ContainerData>
         <C.ContainerPriceAndName>
           <C.Name>{product.name}</C.Name>
-          <C.Price>{product.value}</C.Price>
+          <C.Price>${product.value}.00</C.Price>
         </C.ContainerPriceAndName>
         <C.ContanerSizeAndColor>
           <C.ContainerInfo>
             <C.Label>Tamanho:</C.Label>
-            <C.ValueLabel>{product.size}</C.ValueLabel>
+            <C.ValueLabel>{product.size.toLocaleUpperCase()}</C.ValueLabel>
           </C.ContainerInfo>
           <C.ContainerInfo>
             <C.Label>Cor:</C.Label>

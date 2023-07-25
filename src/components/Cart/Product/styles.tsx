@@ -31,15 +31,39 @@ export const ContainerPriceAndName = styled.article`
   align-items: center;
   justify-content: space-between;
 `;
-export const Name = styled.article``;
-export const Price = styled.article``;
+export const Name = styled.article`
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  color: #111729;
+  font-size: 0.9em;
+`;
+export const Price = styled.article`
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #111729;
+  font-size: 0.9em;
+`;
 export const ContanerSizeAndColor = styled.article`
   display: flex;
   gap: 15px;
 `;
-export const ValueLabel = styled.article``;
 export const ContainerLabel = styled.article``;
 export const ContainerInfo = styled.div`
   display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
 `;
-export const Label = styled.article``;
+export const Label = styled.article`
+  color: #677489;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+`;
+export const ValueLabel = styled.article`
+  color: #111729;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 0.9em;
+  position: relative;
+  top: 5%;
+`;

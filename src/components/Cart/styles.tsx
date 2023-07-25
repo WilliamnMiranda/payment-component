@@ -3,6 +3,10 @@ import styled from "styled-components";
 const HeaderMedias = styled.div`
   background-color: #f8fafc;
   padding: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #111729;
+  font-size: 1em;
 `;
 
 export const HeaderMobile = styled(HeaderMedias)`

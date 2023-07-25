@@ -9,9 +9,9 @@ function Cart() {
   return (
     <div>
       <C.HeaderWeb> Web </C.HeaderWeb>
-      <C.HeaderMobile>
+      <C.HeaderMobile onClick={() => setOpen((currentValue) => !currentValue)}>
         <C.TextHeader>
-          {open ? "Esconder" : "Mostrar"}
+          {open ? "Esconder " : "Mostrar "}
           resumo do pedido
           {open ? <img src={ArrowUp} /> : <img src={ArrowDown} />}
         </C.TextHeader>
