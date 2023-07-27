@@ -19,14 +19,24 @@ export const ModelContainerCard = styled.section`
   @media (max-width: 1500px) {
     width: 75%;
   }
+  @media (max-width: 800px) {
+    width: 100%;
+  }
 `;
 export const ContainerCart = styled(ModelContainerCard)`
   background-color: #f8fafc;
+  padding: 60px 80px;
   @media (max-width: 1500px) {
     background-color: transparent;
+    padding: 0px;
+  }
+  @media (max-width: 800px) {
+    padding: 10px 10px;
   }
 `;
 
 export const ContainerPayment = styled(ModelContainerCard)`
-  background-color: blue;
+  @media (max-width: 800px) {
+    padding: 10px 10px;
+  }
 `;

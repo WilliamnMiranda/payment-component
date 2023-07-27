@@ -1,4 +1,5 @@
 import Cart from "./components/Cart/Cart";
+import Payment from "./components/Payment/Payment";
 import * as C from "./styles";
 import { createGlobalStyle } from "styled-components";
 function App() {
@@ -16,7 +17,9 @@ function App() {
         <C.ContainerCart>
           <Cart />
         </C.ContainerCart>
-        <C.ContainerPayment>teste</C.ContainerPayment>
+        <C.ContainerPayment>
+          <Payment />
+        </C.ContainerPayment>
       </C.ContainerMain>
     </>
   );
